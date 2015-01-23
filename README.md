@@ -21,9 +21,10 @@ this module read them when required.  Authentication was required when accomplis
 I already had an existing instance running on EC2, so I chose to make a call which would describe the
 running instance.  This was accomplished with a call to aws-sdk's `describeInstances` function. This 
 describes details about instances such as public/private IP, public/private DNS name, image ID, etc.
-As you can see in the provided screenshot, the instance described by the API call (on the left) matches the instance in the EC2 web view on the right.
+As you can see in the provided screenshot, the instance described by the API call (bottom) matches the instance in the EC2 web view (top).
 
-![Screenshot Demonstrating describeInstances function](images/apiCallScreenshot.png "Demonstration of describeInstances")
+![Webconsole view](images/webConsole.png "Web Console View of Instance")
+![API Call](images/apiCall.png "API Call - Terminal View")
 
 For reference:  
 - API Reference [doc](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeInstances.html)  
