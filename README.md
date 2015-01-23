@@ -10,7 +10,7 @@ this module read them when required.  Authentication was required when accomplis
 - **Demonstrate a simple API call**  
 I already had an existing instance running on EC2, so I chose to make a call which would describe the
 running instance.  This was accomplished with a call to aws-sdk's `describeInstances` function. This 
-describes details about the instance such as public/private IP, public/private DNS name, image ID, etc.
+describes details about instances such as public/private IP, public/private DNS name, image ID, etc.
 As you can see in the provided screenshot, the instance described by the API call (on the left) matches the instance in the EC2 web view on the right.
 
 For reference:  
