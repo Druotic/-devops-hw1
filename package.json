@@ -1,0 +1,15 @@
+{
+  "name": "devops-hw1",
+  "version": "0.0.0",
+  "description": "",
+  "main": "describeInstance.js",
+  "dependencies": {
+    "aws-sdk": "~2.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Beavers",
+  "license": "BSD"
+}
