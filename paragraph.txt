@@ -1,9 +1,0 @@
-Amazon EC2
-
-Amazon Elastic Compute Cloud (EC2) is probably one of AWS's most well known services.  In just minutes,
-virtual machines can be configured, booted up, and running.  The user picks the type of image, 
-resources, and sets up network, security groups, tenancy, etc details.  The user is charged only for
-the resources consumed (so much per hour per resource type - varies per machine/resource configuration).
-From simple side projects to medium-sized business applications, it can be very convenient to get up 
-and running without worrying with the hassles of managing hardware (and cheaper due to scaling if there
-are long periods of low resource consumption).
